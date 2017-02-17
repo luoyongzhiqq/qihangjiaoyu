@@ -11,7 +11,7 @@
 <script type="text/javascript" src="js/carousel.js"></script> 
 <script>
          $(function(){
-            $(".banner").carousel($(".uek_box"),$(".uek_list"),$(".lbd div"),"two",5000,30);
+            $(".banner").carousel($(".uek_box"),$(".uek_list"),$(".uek_btns dd"),"two",5000,30);
             //$(".uek_win") 父容器   $(".uek_box")所有轮播图片容器  $(".uek_list")轮播图片列表  $(".uek_btns dd") 按钮列表 
             //"two" 轮播类型 透明度切换   3000 轮播间隔   3000 轮播动画时间 
          }) 
@@ -95,15 +95,16 @@
 					</div>
 					<img src="img/3.png" alt="">
 				</li>
-				<li class="uek_list">
-					<img src="img/44.png" alt="">
-				</li>
-				<li class="uek_list">
-					<img src="img/45.png" alt="">
-				</li>
-				<li class="uek_list">
-					<img src="img/46.png" alt="">
-				</li>
+				<a href="">
+					<li class="uek_list">
+						<img src="img/44.png" alt="">
+					</li>
+				</a>
+				<a href="">
+					<li class="uek_list">
+						<img src="img/45.png" alt="">
+					</li>
+				</a>
 				<li class="uek_list">
 					<div class="details">
 						<a href="" class="detailswenzi">Details</a><br>
@@ -112,12 +113,11 @@
 					<img src="img/3.png" alt="">
 				</li>
 			</ul>
-		<div class="lbd">
-			<div class="yuan uek_active"></div>
-			<div class="yuan"></div>
-			<div class="yuan"></div>
-			<div class="yuan"></div>
-		</div>
+		<dl class="uek_btns">
+			<dd class="uek_active"></dd>
+	        <dd></dd>
+	        <dd></dd>
+		</dl> 
 	</div>
 	<!-- 全部课程标题 -->
 	<div class="qbkc_beijing">

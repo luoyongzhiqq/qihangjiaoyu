@@ -281,14 +281,17 @@ input{
 	margin: auto;
 	overflow: hidden;
 	transition:all 9s;
-	animation:zhuan 40s linear infinite;	
+	animation:zhuan 20s linear infinite;	
 }
 @keyframes zhuan{
 			0%{
-				transform:rotate(0deg);
+				transform:rotate(45deg);
 			}
 			100%{
-				transform:rotate(360deg);
+				transform:rotate(45deg);
+			}
+			50%{
+				transform:rotate(-45deg);
 			}
 		}
 .tx2:hover img{

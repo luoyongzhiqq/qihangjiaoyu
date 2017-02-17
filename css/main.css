@@ -200,8 +200,8 @@ input{
     margin-left: -960px;
     width: 1920px;
 }
-.lbd{
-	width: 144px;
+.uek_btns{
+	width: 111px;
 	height: 20px;
 	background: #111;
 	position: absolute;
@@ -222,8 +222,9 @@ input{
 	margin-top: 2px;
 	margin-left: 20px;
 	float: left;
+	/*z-index: 10000;*/
 }
-.yuan{
+dd{
 	width: 10px;
 	height: 10px;
 	background: #dfdfdf;
